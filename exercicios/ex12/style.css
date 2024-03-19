@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+
+body{
+    background-color: rgb(75, 75, 75);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background-color: rgba(2, 2, 98, 0.704);
+    padding: 10px;
+    width: 100vh;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    background-color: rgba(169, 169, 169, 0.302);
+    padding: 10px;
+    color: black;
+    text-shadow: 1px 1px 0px black;
+}
+p{
+    color: white;
+    text-align: justify;
+}
