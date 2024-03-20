@@ -1,0 +1,32 @@
+@charset "utf- 8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+caption{
+    background-color: rgb(159, 75, 237);
+    color: white;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+    width: 400px;
+}
+ tr > th,td {
+    border: 1px solid blueviolet;
+    padding: 10px;
+  
+ }
+ col.c1{
+    background-color: burlywood;
+   
+ }
+
+ .preto{
+    background-color: blue;
+ }
