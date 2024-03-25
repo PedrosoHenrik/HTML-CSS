@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+        <h1> Formulário 04 </h1>
+        <form action="cadastro.php" method="get">
+            <fieldset>
+                <legend> Dados Pessoais</legend>
+                <p>
+                    <label for="inome">Nome</label>
+                    <input type="text" name="Nome" id="inome" required placeholder="Nome completo" minlength="2" maxlength="20">
+                </p>
+                <!--
+                    Estudar mais sobre RegEx
+                    e tambem Style 
+                -->
+                <p>
+                    <label for="iemail"> Email</label>
+                    <input type="email" name="email" id="iemail" required placeholder="email@">
+                </p>
+                <p>
+                    <label for="itele">Telefone</label>
+                    <input type="tel" name="tele" id="itele" required placeholder="(xx)xxxx-xxxx">
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+            </fieldset>
+        </form>
+</body>
+</html>
