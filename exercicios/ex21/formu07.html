@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomulário 07 </title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iest"> Estado</label>
+            <select name="estad0" id="iest">
+
+                <option value="" selected>---escolha----</option>
+                <optgroup label="Estado do sul">
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RJ"> Rio de Janeiro</option>
+                    <option value="SP">Saõ Paulo</option>
+                </optgroup>
+
+                <optgroup  label="Estado do Norte">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+            <!--
+                Para fazer um caixa só com as opçõe que ela tem 
+            -->
+        </p>
+
+        <p>
+            <label for="iprof">Profisão</label>
+            <input type="text" name="prof" id="iprof" list="istprof">
+            <datalist id="istprof">
+                <option value="ad">Administrador</option>
+                <option value="pr">Programador</option>
+                <option value="prof">Professor</option>
+            </datalist>
+        </p>
+            <!--
+                Para fazer uma caixa com pesquisa e opções
+            -->
+
+        <p>
+            <label for="imgs">Mesagem</label> <br>
+            <textarea name="mgs" id="imgs" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+
+    </form>
+</body>
+</html>
