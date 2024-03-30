@@ -3,3 +3,8 @@
 /*
     aparelho deitado (landscape)
 */
+body{
+    background-image: url(../imagem/cev-landscape.jpg);
+    background-position: left bottom;
+   
+}
