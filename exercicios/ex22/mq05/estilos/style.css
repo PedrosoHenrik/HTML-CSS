@@ -33,9 +33,9 @@ menu > ul > li >  a {
 menu > ul > li >  a:hover{
     background-color: rgb(112, 112, 112);
 }
-span {
+span.material-symbols-outlined {
     background-color: rgb(34, 34, 34);
-   width: 100vw;
+    width: 100vw;
     color: whitesmoke;
     display: block;
     text-align: center;
