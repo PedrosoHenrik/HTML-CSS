@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        div.conteiner{
+            background-color: violet;
+            display: flex;
+            flex-flow: row-reverse wrap-reverse;
+        }
+        div.item{
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+          
+        }
+        div.conteiner2{
+            margin: 30px;
+            height:  60px;
+            background-color: violet;
+            display: flex;
+            flex-flow: column wrap-reverse;
+        }
+        div.item{
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div  class="item"> Exemplo da letra a</div>
+        <div  class="item"> Exemplo da letra b</div>
+        <div  class="item"> Exemplo da letra c</div>
+        <div  class="item"> Exemplo da letra d</div>
+        <div  class="item"> Exemplo da letra f</div>
+        <div  class="item"> Exemplo da letra g</div>
+        <div  class="item"> Exemplo da letra h</div>
+    </div>
+    <div class="conteiner2">
+        <div  class="item"> Exemplo da letra a</div>
+        <div  class="item"> Exemplo da letra b</div>
+        <div  class="item"> Exemplo da letra c</div>
+        <div  class="item"> Exemplo da letra d</div>
+        <div  class="item"> Exemplo da letra f</div>
+        <div  class="item"> Exemplo da letra g</div>
+        <div  class="item"> Exemplo da letra h</div>
+    </div>
+</body>
+</html>

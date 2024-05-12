@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        div#conteiner01{
+            background-color: violet;
+            display: flex;
+            flex-direction: row;
+            margin: 20px;
+        }
+        div#conteiner02{
+            background-color: violet;
+            display: flex;
+            flex-direction: row-reverse;
+            margin: 20px;
+        }
+        div#conteiner03{
+            background-color: violet;
+            display: flex;
+            flex-direction: column-reverse;
+            margin: 20px;
+        }
+        div#conteiner04{
+            background-color: violet;
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+        }
+        
+        div.item{
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <p> display flex: row;<br> 
+        com main-axis: de direita para esquerda <br>
+            cross-axis:de cima para baixo o cross-axis não muda de direção</p>
+    <div id="conteiner01" >
+        <div class="item">a</div>
+        <div  class="item">b</div>
+        <div  class="item">c</div>
+        <div  class="item">d</div>
+        <div  class="item">f</div>
+        <div  class="item">g</div>
+        <div  class="item">h</div>
+    </div>
+    <p> display flex: row reverse; <br>
+        com main-axis: de direita para esquerda; <br>
+            cross-axis:de cima para baixo o cross-axis não muda de direção</p>
+    <div id="conteiner02" >
+        <div class="item">a</div>
+        <div class="item">b</div>
+        <div class="item">c</div>
+        <div class="item">d</div>
+        <div class="item">f</div>
+        <div class="item">g</div>
+        <div class="item">h</div>
+    </div>
+    <p> display flex: colunm reverse; <br>
+        com main-axis: de baixo para cima; <br>
+            cross-axis:de esqueda para direita o cross-axis não muda de direção</p>
+    <div id="conteiner03">
+        <div class="item">a</div>
+        <div class="item">b</div>
+        <div class="item">c</div>
+        <div class="item">d</div>
+        <div class="item">f</div>
+        <div class="item">g</div>
+        <div class="item">h</div>
+    </div>
+    <p> display flex:coluonm; <br>
+        com main-axis: cima para baixo ; <br>
+            cross-axis:de esqueda para direita o cross-axis não muda de direção</p>
+    <div id="conteiner04">
+        <div class="item">a</div>
+        <div class="item">b</div>
+        <div class="item">c</div>
+        <div class="item">d</div>
+        <div class="item">f</div>
+        <div class="item">g</div>
+        <div class="item">h</div>
+    </div>
+</body>
+</html>

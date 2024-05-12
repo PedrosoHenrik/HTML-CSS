@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        div.conteiner{
+            margin: 20px;
+            background-color: violet;
+            display: flex;
+            justify-content: flex-end;
+        }
+        div.item{
+            padding: 10px;
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;  
+        }
+        div.conteiner2{
+            margin: 20px;
+            background-color: violet;
+            display: flex;
+            justify-content:flex-start;
+        }
+        div.item2{
+            padding: 10px;
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;  
+        }
+        div.conteiner3{
+            margin: 20px;
+            background-color: violet;
+            display: flex;
+            justify-content:space-around;
+        }
+        div.item3{
+            padding: 10px;
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;  
+        }
+        div.conteiner4{
+            margin: 20px;
+            background-color: violet;
+            display: flex;
+            justify-content:space-between;
+        }
+        div.item4{
+            padding: 10px;
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;  
+        }
+        div.conteiner5{
+            margin: 20px;
+            background-color: violet;
+            display: flex;
+            justify-content:space-evenly;
+        }
+        div.item5{
+            padding: 10px;
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;  
+        }
+        h2{
+            text-align: center;
+        }
+        div.conteinercolunms{
+            height: 200px;
+            background-color: violet;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+            align-items: flex-end;
+        }
+        div.itemc1{
+            padding: 10px;
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+        }
+        div.conteinercolunms2{
+            height: 200px;
+            background-color: violet;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+            align-items: flex-start;
+        }
+        div.itemc2{
+            padding: 10px;
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+        }
+        div.conteinercolunms3{
+            height: 200px;
+            background-color: violet;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+            align-items:center;
+        }
+        div.itemc3{
+            padding: 10px;
+            background-color: aqua;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        
+       
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div  class="item">a</div>
+        <div  class="item">b</div>
+        <div  class="item">c</div>
+        <div  class="item">d</div>
+        <div  class="item">f</div>
+        <div  class="item">g</div>
+        <div  class="item">h</div>
+    </div>
+    <div class="conteiner2">
+        <div class="item2">a</div>
+        <div  class="item2">b</div>
+        <div  class="item2">c</div>
+        <div  class="item2">d</div>
+        <div  class="item2">f</div>
+        <div  class="item2">g</div>
+        <div  class="item2">h</div>
+    </div>
+    <div class="conteiner3">
+        <div class="item3">a</div>
+        <div  class="item3">b</div>
+        <div  class="item3">c</div>
+        <div  class="item3">d</div>
+        <div  class="item3">f</div>
+        <div  class="item3">g</div>
+        <div  class="item3">h</div>
+    </div>
+    <div class="conteiner4">
+        <div class="item4">a</div>
+        <div  class="item4">b</div>
+        <div  class="item4">c</div>
+        <div  class="item4">d</div>
+        <div  class="item4">f</div>
+        <div  class="item4">g</div>
+        <div  class="item4">h</div>
+    </div>
+    <div class="conteiner5">
+        <div  class="item5">a</div>
+        <div  class="item5">b</div>
+        <div  class="item5">c</div>
+        <div  class="item5">d</div>
+        <div  class="item5">f</div>
+        <div  class="item5">g</div>
+        <div  class="item5">h</div>
+    </div>
+<h2>agora com colunms</h2>
+<p> colunms Flex-end</p>
+    <div class="conteinercolunms">
+        <div  class="itemc1">a</div>
+        <div  class="itemc1">b</div>
+        <div  class="itemc1">c</div>
+        <div  class="itemc1">d</div>
+        <div  class="itemc1">f</div>
+        <div  class="itemc1">g</div>
+        <div  class="itemc1">h</div>
+    </div>
+    <p> colunms com flex-start</p>
+    <div class="conteinercolunms2">
+        <div  class="itemc2">a</div>
+        <div  class="itemc2">b</div>
+        <div  class="itemc2">c</div>
+        <div  class="itemc2">d</div>
+        <div  class="itemc2">f</div>
+        <div  class="itemc2">g</div>
+        <div  class="itemc2">h</div>
+    </div>
+    <p>colunms com flex center </p>
+    <div class="conteinercolunms3">
+        <div  class="itemc3">a</div>
+        <div  class="itemc3">b</div>
+        <div  class="itemc3">c</div>
+        <div  class="itemc3">d</div>
+        <div  class="itemc3">f</div>
+        <div  class="itemc3">g</div>
+        <div  class="itemc3">h</div>
+    </div>
+</body>
+</html>
